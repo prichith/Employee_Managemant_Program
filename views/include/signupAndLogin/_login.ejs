@@ -1,0 +1,34 @@
+
+<!-- Login page -->
+<!-- <div class="form login">
+    <header>Login</header>
+    <form action="/api/userlogin" method="POST">
+        <input class="textColor" type="text" placeholder="Email address" required name="email"/>
+        <div class="loginPassword">
+            <input class="textColor" id="loginPassword" type="password" placeholder="Password" required name="password"/>
+            <input id="loginCheck" type="checkbox" onclick="showPassword('loginPassword')" />
+            <label for="loginCheck"><i class="fa-regular fa-eye"></i></label>                 
+        </div>
+         
+        <a href="/forgetPassword" >Forget password</a>
+        <input type="submit" value="Login" />
+    </form>
+</div> -->
+<!-- END Login page -->
+
+<!-- Login page -->
+<div class="form login">
+    <header>Login</header>
+    <form action="/api/userlogin" method="POST">
+        <input class="textColor" type="text" placeholder="Email address" required name="email"/>
+        <div class="loginPassword" id="loginPassword">
+            <input class="textColor" id="loginPassword" type="password" placeholder="Password" required name="password"/>
+            <input id="loginCheck" type="checkbox" onclick="showPassword('loginPassword')" />
+            <label for="loginCheck"><i class="fa-regular fa-eye"></i></label>                 
+        </div>
+         
+        <a href="/forgetPassword" onclick="forgetpassword()">Forget password</a>
+        <input type="submit" value="Login" />
+    </form>
+</div>
+<!-- END Login page -->
